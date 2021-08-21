@@ -1,0 +1,32 @@
+.experienceBar {
+    display: flex; 
+    align-items: center;
+}
+
+.experienceBar span {
+    font-size: 1rem;
+
+}
+
+.experienceBar > div { /* Esse sinal de > faz com que ele pegue somente essa div que esta no experienceBar e não nós demais niveis*/
+    flex: 1; /* Para que ela ocupe a largura maxima possivel do container*/
+    height: 4px; /* usar px somente quando quiser que ela tenha um tamanho fixo */
+    border-radius: 4px;
+    background: var(--gray-line);
+    margin: 0 1.5rem;
+    position: relative;
+
+
+}
+
+.experienceBar > div > div {
+    height: 4px;
+    border-radius: 4px;
+    background: var(--green);
+}
+
+span.currentExperience {
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%);
+}

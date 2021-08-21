@@ -1,0 +1,19 @@
+.completedChallengesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*isso quer dizer que eu quero que cada um fique em um lado ou seja um bem pra direita e o outro bem pra esquerda */
+
+    margin: 3.5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d7d8da;
+
+    font-weight: 500;
+}
+
+.completedChallengesContainer span:first-child { /* First-child seria basicamente primeiro filho ou primeiro container */
+    font-size: 1.25rem;
+}
+
+.completedChallengesContainer span:last-child { /* Last-child seria basicamente ultimo filho ou ultimo container */
+    font-size: 1.5rem;
+}

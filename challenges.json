@@ -1,0 +1,62 @@
+[
+    {
+        "type": "body",
+        "description": "Mexa os dedos",
+        "amount": 80
+    },
+    {
+        "type": "body",
+        "description": "Corrija sua postura",
+        "amount": 100
+    },
+    {
+        "type": "body",
+        "description": "Levante e alongue as pernas",
+        "amount": 70
+    },
+    {
+        "type": "body",
+        "description": "Beba água",
+        "amount": 60
+    },
+    {
+        "type": "body",
+        "description": "verifique seus perifericos",
+        "amount": 50
+    },
+    {
+        "type": "body",
+        "description": "Ouça lofi",
+        "amount": 100
+    },
+    {
+        "type": "body",
+        "description": "Pausa para descanço",
+        "amount": 90
+    },
+    {
+        "type": "body",
+        "description": "Verifique as metas diárias",
+        "amount": 60
+    },
+    {
+        "type": "body",
+        "description": "Refaça o planejamento para o dia seguinte",
+        "amount": 80
+    },
+    {
+        "type": "body",
+        "description": "Consulte pessoas mais experientes sobre os problemas na aplicação",
+        "amount": 60
+    },
+    {
+        "type": "body",
+        "description": "Jogue durante 10 minutos",
+        "amount": 100
+    },
+    {
+        "type": "body",
+        "description": "Relaxe e finalize o dia",
+        "amount": 80
+    }  
+]

@@ -1,0 +1,18 @@
+.container {
+    height: 100vh; /* vai fazer com que o container ocupe 100% da altura da tela */
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Isso quer dizer que eu quero que tenham 2 colunas com tamanho igual*/
+    gap: 6.25rem;
+    align-content: center; /* vai fazer com que todo o conteúdo do grid seja alinhado ao centro verticalmente*/
+}
